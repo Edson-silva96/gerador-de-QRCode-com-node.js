@@ -1,0 +1,1 @@
+# gerador-de-QRCode-com-node.js
