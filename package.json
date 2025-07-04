@@ -1,0 +1,23 @@
+{
+  "name": "projeto-criando-um-gerador-de-qr-codes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dotenv -e .env node src/index.js"
+  },
+  "keywords": [],
+  "author": "edson desenvolvedor",
+  "license": "ISC",
+  "description": "projeto de gerador de QR Codes utilizando Node.js",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^17.0.1",
+    "prompt": "^1.3.0",
+    "qrcode-terminal": "^0.12.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^8.0.0"
+  }
+}
